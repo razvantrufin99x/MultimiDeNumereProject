@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>MultimiDeNumereProject.MultimiDeNumere</RootNamespace>
+    <AssemblyName>MultimiDeNumere</AssemblyName>
+    <ProjectGuid>{}</ProjectGuid>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Operatie.cs" />
+    <Compile Include="NaturalPozitiv.cs" />
+    <Compile Include="Real.cs" />
+    <Compile Include="Rational.cs" />
+    <Compile Include="Irational.cs" />
+    <Compile Include="Intreg.cs" />
+    <Compile Include="Imaginar.cs" />
+    <Compile Include="Complex.cs" />
+    <Compile Include="Transcedental.cs" />
+    <Compile Include="Vid.cs" />
+    <Compile Include="MultimeDeNumere.cs" />
+    <Compile Include="Numar.cs" />
+    <Compile Include="Cifra.cs" />
+    <Compile Include="Litera.cs" />
+    <Compile Include="Simbol.cs" />
+    <Compile Include="SemnDePunctuatie.cs" />
+    <Compile Include="Operator.cs" />
+    <Compile Include="Caracter.cs" />
+    <Compile Include="CodASCII.cs" />
+    <Compile Include="TabelASCII.cs" />
+    <Compile Include="Natural.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

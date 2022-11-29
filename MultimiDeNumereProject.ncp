@@ -1,0 +1,232 @@
+<Project>
+  <Name>MultimiDeNumereProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>MultimiDeNumere</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Operatie</Name>
+        <Access>Public</Access>
+        <Location left="208" top="468" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Insumare()</Member>
+        <Member type="Method">public void Numarare()</Member>
+        <Member type="Method">public void Opus()</Member>
+        <Member type="Method">public void Adunare()</Member>
+        <Member type="Method">public void Impartire()</Member>
+        <Member type="Method">public void Scadere()</Member>
+        <Member type="Method">public void Inmultire()</Member>
+        <Member type="Method">public void Par()</Member>
+        <Member type="Method">public void Impar()</Member>
+        <Member type="Method">public void Zero()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>NaturalPozitiv</Name>
+        <Access>Public</Access>
+        <Location left="208" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Real</Name>
+        <Access>Public</Access>
+        <Location left="381" top="350" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void AdunareElementNeutru()</Member>
+        <Member type="Method">public void AdunareInvers()</Member>
+        <Member type="Method">public void AdunareComutativititate()</Member>
+        <Member type="Method">public void AdunareAsociativitate()</Member>
+        <Member type="Method">public void Diferenta()</Member>
+        <Member type="Method">public void InmultireElementNeutru()</Member>
+        <Member type="Method">public void InmultireInvers()</Member>
+        <Member type="Method">public void InmultireCuZero()</Member>
+        <Member type="Method">public void InmultireComutativitate()</Member>
+        <Member type="Method">public void InmulireAsociativitate()</Member>
+        <Member type="Method">public void DistributibitateaAdunarii()</Member>
+        <Member type="Method">public void Impartire()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Rational</Name>
+        <Access>Public</Access>
+        <Location left="552" top="35" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Numar numitor</Member>
+        <Member type="Field">Numar numarator</Member>
+        <Member type="Method">public void Simplificare()</Member>
+        <Member type="Method">public void Amplificare()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Irational</Name>
+        <Access>Public</Access>
+        <Location left="553" top="263" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Numar numar</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Intreg</Name>
+        <Access>Public</Access>
+        <Location left="40" top="263" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Numar parteaIntreaga</Member>
+        <Member type="Field">Numar parteaFractionara</Member>
+        <Member type="Field">Semn semnDeDespartire</Member>
+        <Member type="Field">char semn</Member>
+        <Member type="Method">public void Negativ()</Member>
+        <Member type="Method">public void Pozitiv()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Imaginar</Name>
+        <Access>Public</Access>
+        <Location left="208" top="234" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Complex</Name>
+        <Access>Public</Access>
+        <Location left="381" top="12" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Real parteaRealaX</Member>
+        <Member type="Field">Imaginar parteImaginaraI</Member>
+        <Member type="Field">int PlanComplex</Member>
+        <Member type="Field">Real parteaRealaY</Member>
+        <Member type="Method">public void Conjugare()</Member>
+        <Member type="Method">public void ReprezentarePolara()</Member>
+        <Member type="Method">public void Modul()</Member>
+        <Member type="Method">public void Argument()</Member>
+        <Member type="Method">public void ProdusReprezentarePolara()</Member>
+        <Member type="Method">public void ConjugatReprezentarePolara()</Member>
+        <Member type="Method">public void InversReprezentarePolara()</Member>
+        <Member type="Method">public void FractieReprezentarePolara()</Member>
+        <Member type="Method">public void Putere()</Member>
+        <Member type="Method">public void DeMoivre()</Member>
+        <Member type="Method">public void Euler()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Transcedental</Name>
+        <Access>Public</Access>
+        <Location left="720" top="37" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Vid</Name>
+        <Access>Public</Access>
+        <Location left="720" top="263" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int valoare = 0</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>MultimeDeNumere</Name>
+        <Access>Public</Access>
+        <Location left="40" top="491" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">char simbol { get; set; }</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>Numar</Name>
+        <Access>Public</Access>
+        <Location left="557" top="507" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char [] numar</Member>
+        <Member type="Field">char semn</Member>
+        <Member type="Field">Simbol simbolDeDespartire</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cifra</Name>
+        <Access>Public</Access>
+        <Location left="727" top="513" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Litera</Name>
+        <Access>Public</Access>
+        <Location left="754" top="573" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Simbol</Name>
+        <Access>Public</Access>
+        <Location left="780" top="646" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SemnDePunctuatie</Name>
+        <Access>Public</Access>
+        <Location left="812" top="703" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Operator</Name>
+        <Access>Public</Access>
+        <Location left="823" top="761" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Caracter</Name>
+        <Access>Public</Access>
+        <Location left="841" top="828" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CodASCII</Name>
+        <Access>Public</Access>
+        <Location left="860" top="882" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TabelASCII</Name>
+        <Access>Public</Access>
+        <Location left="630" top="943" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Natural</Name>
+        <Access>Public</Access>
+        <Location left="27" top="21" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Numar numar</Member>
+        <Member type="Field">Operatie operatii</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

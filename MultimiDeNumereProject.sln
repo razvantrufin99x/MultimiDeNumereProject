@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00000000-0000-0000-0000-000000000000}") = "MultimiDeNumere", "MultimiDeNumere\MultimiDeNumere.csproj", "{550DBBE0-C94E-44D9-848D-478049B0D369}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{633344A1-328A-4EAE-9741-C7380E134BA9}"
+	ProjectSection(SolutionItems) = preProject
+		MultimiDeNumere\Caracter.cs = MultimiDeNumere\Caracter.cs
+		MultimiDeNumere\Cifra.cs = MultimiDeNumere\Cifra.cs
+		MultimiDeNumere\CodASCII.cs = MultimiDeNumere\CodASCII.cs
+		MultimiDeNumere\Complex.cs = MultimiDeNumere\Complex.cs
+		MultimiDeNumere\Imaginar.cs = MultimiDeNumere\Imaginar.cs
+		MultimiDeNumere\Intreg.cs = MultimiDeNumere\Intreg.cs
+		MultimiDeNumere\Irational.cs = MultimiDeNumere\Irational.cs
+		MultimiDeNumere\Litera.cs = MultimiDeNumere\Litera.cs
+		MultimiDeNumere\MultimeDeNumere.cs = MultimiDeNumere\MultimeDeNumere.cs
+		MultimiDeNumere\MultimiDeNumere.csproj = MultimiDeNumere\MultimiDeNumere.csproj
+		MultimiDeNumere\Natural.cs = MultimiDeNumere\Natural.cs
+		MultimiDeNumere\NaturalPozitiv.cs = MultimiDeNumere\NaturalPozitiv.cs
+		MultimiDeNumere\Numar.cs = MultimiDeNumere\Numar.cs
+		MultimiDeNumere\Operatie.cs = MultimiDeNumere\Operatie.cs
+		MultimiDeNumere\Operator.cs = MultimiDeNumere\Operator.cs
+		MultimiDeNumere\Rational.cs = MultimiDeNumere\Rational.cs
+		MultimiDeNumere\Real.cs = MultimiDeNumere\Real.cs
+		MultimiDeNumere\SemnDePunctuatie.cs = MultimiDeNumere\SemnDePunctuatie.cs
+		MultimiDeNumere\Simbol.cs = MultimiDeNumere\Simbol.cs
+		MultimiDeNumere\TabelASCII.cs = MultimiDeNumere\TabelASCII.cs
+		MultimiDeNumere\Transcedental.cs = MultimiDeNumere\Transcedental.cs
+		MultimiDeNumere\Vid.cs = MultimiDeNumere\Vid.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491371C4-C035-4FC9-BDBC-4B2D4B5551B1}
+	EndGlobalSection
+EndGlobal
